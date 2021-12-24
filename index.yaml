@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  pages:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-12-24T04:21:31.399536767Z"
+    dependencies:
+    - name: api
+      repository: http://localhost:8080
+      version: 1.0.0
+    - name: mysql
+      repository: http://localhost:8080
+      version: 1.0.0
+    description: A Helm chart for Pages Application
+    digest: 247cd8c312e395ed5451fdb7c454d3762f31cfa79e98566735e3de96126bbcdf
+    name: pages
+    type: application
+    urls:
+    - https://krishnamraju-o.github.io/
+    version: 1.0.0
+generated: "2021-12-24T04:21:31.397841257Z"
